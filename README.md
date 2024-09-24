@@ -147,27 +147,7 @@ Before setting up the project, ensure you have the following tools installed:
 3. **Run the Application:**
    - The Jenkins pipeline will automatically SSH into the EC2 instance, copy the `docker-compose.yaml` file, and run the application using Docker.
 
-## Screenshots
 
-**1. Jenkins Pipeline Configuration:**
-
-_(Upload a screenshot showing the Jenkins job configuration, including the Pipeline script section.)_
-
-**2. Jenkins Pipeline Execution:**
-
-_(Upload a screenshot showing the Jenkins pipeline in action, including stages like cloning the repository, installing dependencies, running tests, building the Docker image, and deploying to EC2.)_
-
-**3. EC2 Instance Setup:**
-
-_(Upload a screenshot of the AWS EC2 dashboard, showing the running instance, along with details like the instance ID, public IP, and security group settings.)_
-
-**4. SSH into EC2 Instance:**
-
-_(Upload a screenshot of the terminal showing SSH access to the EC2 instance and Docker commands being executed.)_
-
-**5. Running To-Do List App:**
-
-_(Upload a screenshot of the To-Do List app running on the EC2 instance, accessible through the public IP in a browser.)_
 
 ## Troubleshooting
 
